@@ -18,12 +18,12 @@ const Copyright = ({ className = "" }) => {
         </div>
         <div className={styles.navigation}>
           <div className={styles.contactTalk}>
-            <button className={styles.linkRelative}>
+            <a href="https://calendly.com/zifodesign" className={styles.linkRelative}>
               <div className={styles.contactUs}>Contact Us</div>
-            </button>
-            <button className={styles.linkRelative1}>
+            </a>
+            <a href="https://calendly.com/zifodesign" className={styles.linkRelative1}>
               <div className={styles.talkWithUs}>Talk with Us</div>
-            </button>
+            </a>
           </div>
         </div>
       </div>

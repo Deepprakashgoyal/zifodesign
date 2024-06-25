@@ -6,7 +6,7 @@ const FrameComponent = ({ className = "" }) => {
     <header className={[styles.headerFlexWrapper, className].join(" ")}>
       <div className={styles.headerFlex}>
         <div className={styles.studioName}>
-          <a className={styles.designStudio}>Design Studio</a>
+          <a href="/" className={styles.designStudio}>Zifo Design</a>
         </div>
         <div className={styles.studioCallLinks}>
           <div className={styles.linkRelative}>
@@ -18,11 +18,11 @@ const FrameComponent = ({ className = "" }) => {
         </div>
         <div className={styles.studioCallLinks1}>
           <button className={styles.linkRelative2}>
-            <a className={styles.scheduleCall}>Schedule Call</a>
+            <a href="https://calendly.com/zifodesign" className={styles.scheduleCall}>Schedule Call</a>
           </button>
-          <button className={styles.linkRelative3}>
+          <a href="https://calendly.com/zifodesign" className={styles.linkRelative3}>
             <div className={styles.contactUs}>Contact Us</div>
-          </button>
+          </a>
         </div>
       </div>
     </header>
