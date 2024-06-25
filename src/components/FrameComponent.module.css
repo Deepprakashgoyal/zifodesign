@@ -1,0 +1,180 @@
+.designStudio {
+  text-decoration: none;
+  position: relative;
+  line-height: 20px;
+  font-weight: 700;
+  color: inherit;
+  white-space: nowrap;
+}
+.studioName {
+  width: 264.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.showcase {
+  text-decoration: none;
+  position: relative;
+  line-height: 21px;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 69px;
+}
+.linkRelative {
+  border-radius: var(--br-7xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-5xl) var(--padding-3xs);
+  mix-blend-mode: normal;
+  flex-shrink: 0;
+}
+.blog {
+  text-decoration: none;
+  position: relative;
+  line-height: 21px;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 35px;
+}
+.linkRelative1 {
+  border-radius: var(--br-7xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-4xl) var(--padding-3xs)
+    var(--padding-5xl);
+  mix-blend-mode: normal;
+  flex-shrink: 0;
+}
+.scheduleCall,
+.studioCallLinks {
+  font-size: var(--font-size-sm-2);
+  font-family: var(--font-azeret-mono);
+}
+.studioCallLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--color-gray-200);
+}
+.scheduleCall {
+  text-decoration: none;
+  position: relative;
+  line-height: 21px;
+  font-weight: 600;
+  color: var(--color-whitesmoke);
+  text-align: left;
+  display: inline-block;
+  min-width: 112px;
+}
+.linkRelative2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-2xl) var(--padding-4xs);
+  background-color: var(--color-darkslategray);
+  border-radius: var(--br-7xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+}
+.linkRelative2:hover {
+  background-color: var(--color-dimgray-100);
+}
+.contactUs {
+  position: relative;
+  font-size: var(--font-size-sm-2);
+  line-height: 21px;
+  font-weight: 600;
+  font-family: var(--font-azeret-mono);
+  color: var(--color-darkslategray);
+  text-align: left;
+  display: inline-block;
+  min-width: 86px;
+}
+.linkRelative3 {
+  cursor: pointer;
+  border: 1px solid var(--color-darkslategray);
+  padding: var(--padding-5xs) var(--padding-2xs) var(--padding-6xs)
+    var(--padding-xs);
+  background-color: transparent;
+  border-radius: var(--br-7xs);
+  justify-content: flex-start;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+}
+.linkRelative3:hover {
+  background-color: var(--color-dimgray-200);
+  border: 1px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+}
+.headerFlex,
+.headerFlexWrapper,
+.linkRelative3,
+.studioCallLinks1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.studioCallLinks1 {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.headerFlex,
+.headerFlexWrapper {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.headerFlex {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-29xl) var(--padding-xs)
+    var(--padding-37xl);
+  mix-blend-mode: normal;
+  gap: var(--gap-xl);
+}
+.headerFlexWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-25xl) 0 var(--padding-23xl);
+  text-align: left;
+  font-size: var(--font-size-6xl-6);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .headerFlex,
+  .headerFlexWrapper {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .headerFlexWrapper {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-3xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .studioCallLinks {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .studioCallLinks1 {
+    display: none;
+  }
+}

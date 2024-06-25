@@ -1,0 +1,75 @@
+.allRightsReserved,
+.docs {
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+}
+.allRightsReserved {
+  font-weight: 300;
+  min-width: 77px;
+}
+.docs {
+  min-width: 30px;
+}
+.support {
+  flex: 1;
+  min-width: 52px;
+}
+.privacy,
+.releases,
+.support,
+.terms {
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+}
+.privacy {
+  text-decoration: none;
+  flex: 1;
+  font-weight: 700;
+  color: inherit;
+  min-width: 52px;
+}
+.releases,
+.terms {
+  min-width: 38px;
+}
+.releases {
+  flex: 1;
+  min-width: 60px;
+}
+.legalLinks,
+.rights,
+.showcaseParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.legalLinks {
+  width: 296px;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--font-size-xs-4);
+}
+.rights,
+.showcaseParent {
+  width: 1073.9px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.showcaseParent {
+  width: 1100px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xl-9);
+  text-align: left;
+  font-size: var(--font-size-6xs-2);
+  color: var(--color-whitesmoke);
+  font-family: var(--font-azeret-mono);
+}
+@media screen and (max-width: 450px) {
+  .rights {
+    flex-wrap: wrap;
+  }
+}

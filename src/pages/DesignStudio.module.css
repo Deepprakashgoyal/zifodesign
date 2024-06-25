@@ -1,0 +1,71 @@
+.foods,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-16xl);
+}
+.foods {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-8xl) 0 var(--padding-9xl);
+  box-sizing: border-box;
+}
+.logotypesIcon {
+  height: 86px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.logotypesWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 0 19px;
+  max-width: 100%;
+}
+.designStudio,
+.footer,
+.logotypesWrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.footer {
+  width: 1402px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.designStudio {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) 0 var(--padding-81xl);
+  gap: 116px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    gap: 17px;
+  }
+  .designStudio {
+    gap: 58px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .designStudio {
+    gap: 29px;
+  }
+}

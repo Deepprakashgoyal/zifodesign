@@ -1,0 +1,218 @@
+.foods,
+.footerLinks {
+  display: flex;
+  max-width: 100%;
+}
+.foods {
+  margin: 0;
+  width: 562px;
+  position: relative;
+  font-size: inherit;
+  line-height: 68px;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: pre-wrap;
+  align-items: center;
+  flex-shrink: 0;
+}
+.footerLinks {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-41xl);
+  box-sizing: border-box;
+}
+.macbookPro16181,
+.macbookPro16731 {
+  height: 760.8px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.macbookPro16731 {
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.macbookPro16181 {
+  flex: 1;
+}
+.macbookPro16181Wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.macBookPair,
+.macBookPairChild {
+  width: 1181px;
+  height: 1665px;
+  border-radius: var(--br-6xl);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.macBookPairChild {
+  position: relative;
+  display: none;
+}
+.macBookPair {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-20xl) var(--padding-19xl) var(--padding-20xl)
+    var(--padding-20xl);
+  gap: var(--gap-34xl-2);
+  z-index: 1;
+}
+.sounds {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 68px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.soundMacBook {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.macbookPro161811 {
+  width: 1100px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.divFlex,
+.footerContent,
+.sound,
+.soundCategory {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.sound {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-100xl);
+}
+.divFlex,
+.footerContent,
+.soundCategory {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.soundCategory {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-7xl);
+}
+.divFlex,
+.footerContent {
+  flex-direction: column;
+}
+.divFlex {
+  border-radius: 0 0 var(--br-53xl) var(--br-53xl);
+  background-color: var(--color-white);
+  padding: var(--padding-20xl) var(--padding-56xl) var(--padding-72xl-3)
+    var(--padding-110xl);
+  gap: var(--gap-151xl);
+  mix-blend-mode: normal;
+  color: var(--color-gray-100);
+}
+.footerContent {
+  padding: 0 0 var(--padding-64xl);
+  gap: var(--gap-81xl);
+  text-align: left;
+  font-size: var(--font-size-131xl);
+  color: var(--color-khaki-300);
+  font-family: var(--font-dela-gothic-one);
+}
+@media screen and (max-width: 1200px) {
+  .divFlex,
+  .macBookPair {
+    padding-top: var(--padding-6xl);
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .divFlex {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-19xl);
+  }
+  .footerContent {
+    padding-bottom: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .foods {
+    font-size: var(--font-size-41xl);
+    line-height: 41px;
+  }
+  .macBookPair {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .sounds {
+    font-size: var(--font-size-41xl);
+    line-height: 41px;
+  }
+  .footerContent {
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .footerLinks {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .macBookPair {
+    gap: var(--gap-8xl);
+  }
+  .sound {
+    gap: var(--gap-40xl);
+  }
+  .divFlex {
+    gap: var(--gap-66xl);
+    padding-left: var(--padding-45xl);
+    padding-right: var(--padding-18xl);
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .footerContent {
+    gap: var(--gap-31xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .foods,
+  .sounds {
+    font-size: var(--font-size-18xl);
+    line-height: 27px;
+  }
+  .sound {
+    gap: var(--gap-11xl);
+  }
+  .divFlex {
+    gap: var(--gap-23xl);
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .footerContent {
+    gap: var(--gap-6xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

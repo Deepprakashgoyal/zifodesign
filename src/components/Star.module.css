@@ -1,0 +1,9 @@
+.starIcon {
+  width: 1417px;
+  height: 37px;
+  position: absolute;
+  margin: 0 !important;
+  top: -19px;
+  left: -17px;
+  z-index: 3;
+}
