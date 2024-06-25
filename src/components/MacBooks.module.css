@@ -144,9 +144,16 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+.see_few{
+  font-size: 150px;
+  width: 820px;
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -228px;
+}
 .imageAndShowcase {
   border-radius: var(--br-6xl);
-  border: 0.5px solid var(--color-gray-100);
+  /* border: 0.5px solid var(--color-gray-100); */
   overflow: hidden;
   flex-direction: column;
   padding: var(--padding-8xl) var(--padding-11xl);

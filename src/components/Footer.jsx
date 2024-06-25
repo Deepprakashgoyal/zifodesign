@@ -3,10 +3,11 @@ import styles from "./Footer.module.css";
 
 const Footer = ({ className = "" }) => {
   return (
-    <section className={[styles.footer, className].join(" ")}>
+    <section id="showcase" className={[styles.footer, className].join(" ")}>
       <div className={styles.showcaseTitle}>
         <div className={styles.seeFewWrapper}>
-          <h1 className={styles.seeFew}>{`See few  `}</h1>
+          <p className={styles.see_few}>see few</p>
+          {/* <h1 className={styles.seeFew}>{`See few  `}</h1> */}
         </div>
         <div className={styles.showcaseImages}>
           <img
@@ -30,6 +31,7 @@ const Footer = ({ className = "" }) => {
         </div>
       </div>
     </section>
+    
   );
 };
 

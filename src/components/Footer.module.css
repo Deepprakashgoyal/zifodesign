@@ -14,6 +14,13 @@
   transform: rotate(-90deg);
   max-width: 1221%;
 }
+.see_few{
+  font-size: 150px;
+  width: 820px;
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -228px;
+}
 .seeFewWrapper {
   width: 94px;
   display: flex;

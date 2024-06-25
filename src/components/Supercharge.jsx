@@ -52,9 +52,9 @@ const Supercharge = ({ className = "" }) => {
         </div>
         <img className={styles.divFlexChild} alt="" src="/star-430.svg" />
         <div className={styles.contactLink1}>
-          <button className={styles.linkRelative}>
+          <a href="https://calendly.com/zifodesign" className={styles.linkRelative}>
             <div className={styles.contactUs}>Contact Us</div>
-          </button>
+          </a>
         </div>
         <Star />
       </div>

@@ -21,8 +21,8 @@ const Copyright = ({ className = "" }) => {
             <a href="https://calendly.com/zifodesign" className={styles.linkRelative}>
               <div className={styles.contactUs}>Contact Us</div>
             </a>
-            <a href="https://calendly.com/zifodesign" className={styles.linkRelative1}>
-              <div className={styles.talkWithUs}>Talk with Us</div>
+            <a href="mailto:info@zifodesign.com" className={styles.linkRelative1}>
+              <div className={styles.talkWithUs}>info@zifodesign.com</div>
             </a>
           </div>
         </div>
